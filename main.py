@@ -1,7 +1,7 @@
 def main():
     book_path = "books/frankenstein.txt"
     text = get_book_text(book_path)
-    print(text.split())
+    print(len(text.split()))
 
 
 def get_book_text(path):
